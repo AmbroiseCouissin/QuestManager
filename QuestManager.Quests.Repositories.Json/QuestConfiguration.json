@@ -1,0 +1,22 @@
+﻿{
+  "RateFromBet": 0.1,
+  "LevelBonusRate": 0.2,
+  "TotalPointNeededToComplete": 1000,
+  "Milestones": [
+    {
+      "PointsNeededToComplete": 250,
+      "MilestoneIndex": 0,
+      "ChipAwarded": 100
+    },
+    {
+      "PointsNeededToComplete": 500,
+      "MilestoneIndex": 1,
+      "ChipAwarded": 150
+    },
+    {
+      "PointsNeededToComplete": 750,
+      "MilestoneIndex": 2,
+      "ChipAwarded": 200
+    }
+  ]
+}

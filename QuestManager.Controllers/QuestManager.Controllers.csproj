@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuestManager.Models\QuestManager.Models.csproj" />
+    <ProjectReference Include="..\QuestManager.Quests.Repositories\QuestManager.Quests.Repositories.csproj" />
+    <ProjectReference Include="..\QuestManager.Scoring.Repositories\QuestManager.Scoring.Repositories.csproj" />
+    <ProjectReference Include="..\QuestManager.ViewModels\QuestManager.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
